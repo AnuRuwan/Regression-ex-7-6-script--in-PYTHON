@@ -9,6 +9,7 @@
 import pandas as pn
 import matplotlib.pyplot as plt
 import numpy as np
+import sys
 
 
 # ## **Reading the data frame**
@@ -16,7 +17,7 @@ import numpy as np
 # In[2]:
 
 
-reg = pn.read_csv("regrex1.csv")
+reg = pn.read_csv(sys.argv[1])
 print(reg)
 
 
@@ -42,6 +43,7 @@ plt.savefig("linearmodleing-from-script-origin-py.png")
 
 
 # In[ ]:
+
 
 
 
