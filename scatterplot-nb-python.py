@@ -38,6 +38,7 @@ ydata=reg['y']
 plt.plot(xdata, ydata, 'o', color='blue')
 m, b =np.polyfit(xdata, ydata, 1)
 plt.plot(xdata,m*xdata+b)
+plt.savefig("linearmodleing-from-script-origin-py.png")
 
 
 # In[ ]:
