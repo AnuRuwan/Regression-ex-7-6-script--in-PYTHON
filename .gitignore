@@ -5,6 +5,7 @@
 .local/
 .profile
 .gitconfig
+.conda/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
