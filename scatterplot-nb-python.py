@@ -26,7 +26,7 @@ print(reg)
 
 
 reg.plot.scatter(x = 'x', y = 'y', title = "Scatter plot-python")
-
+plt.savefig("scatteplot-from script-origin-py.png")
 
 # ## **Linear modeling**
 
