@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# ## **Importing modules / libraries**
+# ## Importing modules / libraries
 
 # In[1]:
 
@@ -12,7 +12,7 @@ import numpy as np
 import sys
 
 
-# ## **Reading the data frame**
+#  Reading the data frame
 
 # In[2]:
 
@@ -21,7 +21,7 @@ reg = pn.read_csv(sys.argv[1])
 print(reg)
 
 
-# ## **Plotting the scatterplot**
+# Plotting the scatterplot
 
 # In[3]:
 
@@ -29,7 +29,7 @@ print(reg)
 reg.plot.scatter(x = 'x', y = 'y', title = "Scatter plot-python")
 plt.savefig("scatteplot-from script-origin-py.png")
 
-# ## **Linear modeling**
+# Linear modeling
 
 # In[4]:
 
